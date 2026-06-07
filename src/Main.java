@@ -1,3 +1,5 @@
+//import  btap.btap2;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -15,5 +17,8 @@ public class Main {
 //        obj.input_Int();
 //        obj.input_Double();
 //        obj.input_String();
+
+        Array obj = new Array();
+        obj.input_array();
     }
 }
