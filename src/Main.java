@@ -18,7 +18,11 @@ public class Main {
 //        obj.input_Double();
 //        obj.input_String();
 
-        Array obj = new Array();
-        obj.input_array();
+//        Array obj = new Array();
+//        obj.input_array();
+//        String_prac obj = new String_prac();
+//        obj.test_String();
+        String_builder_buffer obj = new String_builder_buffer();
+        obj.test();
     }
 }
