@@ -1,4 +1,5 @@
 //import  btap.btap2;
+import oop.Car;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,7 +25,10 @@ public class Main {
 //        obj.test_String();
 //        String_builder_buffer obj = new String_builder_buffer();
 //        obj.test();
-        Regular_Expression obj = new Regular_Expression();
-        obj.test();
+//        Regular_Expression obj = new Regular_Expression();
+//        obj.test();
+        Car obj = new Car();
+        obj.setName("Lamborghini");
+        System.out.println("Tên xe của bạn : " +obj.getName());
     }
 }
