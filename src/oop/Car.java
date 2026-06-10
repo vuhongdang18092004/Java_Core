@@ -3,6 +3,12 @@ package oop;
 public class Car {
     private String name;
 
+    public static  String engineType = "gas";
+
+    public static void get_engineType() {
+        System.out.println("Engine Type = " + engineType);
+    }
+
     // Constructor mặc định (không tham số)
     public Car() {
     }
