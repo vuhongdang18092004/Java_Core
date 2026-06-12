@@ -2,22 +2,22 @@ package oop;
 
 public class BMW extends Car {
 
-    // Constructor
     public BMW(String name) {
-        super(name);   // Gọi constructor của class Car
+        super(name);
     }
 
-    // Override method của class cha
     @Override
     public String getName() {
         return "BMW " + super.getName();
     }
 
-    // Method sử dụng super
     public void showInfo() {
         System.out.println("Tên xe: " + super.getName());
+        Car.get_engineType(); // gọi theo tên class sẽ chuẩn hơn
+    }
 
-        // Gọi static method của class cha
-        super.get_engineType();
+    // Method chỉ BMW có
+    public void drift() {
+        System.out.println("BMW đang drift!");
     }
 }
